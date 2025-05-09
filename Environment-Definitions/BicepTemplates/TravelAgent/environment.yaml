@@ -3,6 +3,16 @@ summary: This is a travel agent deployed into a foundry project with associated 
 description: Deploys a travel agent.
 templatePath: travelagent.bicep
 parameters:
+- id: "resourceGroupName"
+  name: "Resource Group Name"
+  description: "The name of the resource group for your project"
+  type: "string"
+  required: false
+- id: "location"
+  name: "Location"
+  description: "The location of the resource group for your project"
+  type: "string"
+  required: false
 - id: "PROJECT_ENDPOINT"
   name: "Project Endpoint"
   description: "The endpoint for your project (e.g., https://<your-ai-services-account-name>.services.ai.azure.com/api/projects/<your-project-name>)"
