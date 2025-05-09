@@ -42,6 +42,6 @@ parameters:
 - id: "isSharedToAll"
   name: "Is Shared To All"
   description: "Whether the connection is shared with all users"
-  type: "bool"
+  type: "boolean"
   required: false
 runner: Bicep
