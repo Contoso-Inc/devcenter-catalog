@@ -9,7 +9,7 @@ parameters:
   type: "string"
   required: false
 - id: "account_name"
-  name: "Bing Account Name"
+  name: "Account Name"
   description: "Unique name for the Bing grounding resource"
   type: "string"
   required: false
