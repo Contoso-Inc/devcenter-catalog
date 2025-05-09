@@ -1,4 +1,4 @@
-name: TravelAgent
+name: TravelAgent01
 summary: This is a travel agent deployed into a foundry project with associated azure resources.
 description: Deploys a travel agent.
 templatePath: travelagent.bicep
